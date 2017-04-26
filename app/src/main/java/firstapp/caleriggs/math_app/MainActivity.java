@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 float zero = 0;
                 totalTextView.setText(String.valueOf(zero));
+                percentageText.getText().clear();
+                numberText.getText().clear();
             }
         });
 
